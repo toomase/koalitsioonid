@@ -117,7 +117,7 @@ valitsus_koalitsioonid <- valitsus_koalitsioonid_raw %>%
 
 Salvesta andmed blogipostituses kasutamiseks
 ```{r}
-saveRDS(valitsus_koalitsioonid, file = "data\valitsus_koalitsioonid.rds")
+saveRDS(valitsus_koalitsioonid, file = "data/valitsus_koalitsioonid.rds")
 ```
 
 
