@@ -115,6 +115,12 @@ valitsus_koalitsioonid <- valitsus_koalitsioonid_raw %>%
   ungroup()
 ```
 
+Salvesta andmed blogipostituses kasutamiseks
+```{r}
+saveRDS(valitsus_koalitsioonid, file = "data\valitsus_koalitsioonid.rds")
+```
+
+
 Visualiseeri Eesti Vabariigi koalitsioonid
 ```{r, fig.width=12, fig.height=4}
 # vektor kuupäevadega, mida graafiku x-teljel kuvada
